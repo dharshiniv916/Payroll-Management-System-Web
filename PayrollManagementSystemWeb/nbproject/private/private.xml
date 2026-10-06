@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Admin.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/DeductionServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Employee.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/UpdateEmployeeServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Deduction.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Salary.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Payslip.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/web/employee_settings.jsp</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/web/login.jsp</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/LoginServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/LogoutServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/util/DBConnection.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/SalaryServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/entity/Allowance.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/web/dashboard.jsp</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/AllowanceServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/SettingsServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/conf/MANIFEST.MF</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/web/report.jsp</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/AdminPasswordServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/src/java/com/payroll/servlet/EmployeeServlet.java</file>
+            <file>file:/E:/Project(ICT%20Infosis%20Training)/PayrollManagementSystemWeb/web/WEB-INF/web.xml</file>
+        </group>
+    </open-files>
+</project-private>

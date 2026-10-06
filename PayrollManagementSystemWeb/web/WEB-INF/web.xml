@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Login -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Employee -->
+    <servlet>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.EmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <url-pattern>/EmployeeServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Employee -->
+    <servlet>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.DeleteEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <url-pattern>/DeleteEmployeeServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Employee -->
+    <servlet>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.UpdateEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <url-pattern>/UpdateEmployeeServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Salary -->
+    <servlet>
+        <servlet-name>SalaryServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.SalaryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SalaryServlet</servlet-name>
+        <url-pattern>/SalaryServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Allowance -->
+    <servlet>
+        <servlet-name>AllowanceServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.AllowanceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllowanceServlet</servlet-name>
+        <url-pattern>/AllowanceServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Deduction -->
+    <servlet>
+        <servlet-name>DeductionServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.DeductionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeductionServlet</servlet-name>
+        <url-pattern>/DeductionServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Admin Password -->
+    <servlet>
+        <servlet-name>AdminPasswordServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.AdminPasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminPasswordServlet</servlet-name>
+        <url-pattern>/AdminPasswordServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Employee Password -->
+    <servlet>
+        <servlet-name>EmployeePasswordServlet</servlet-name>
+        <servlet-class>com.payroll.servlet.EmployeePasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeePasswordServlet</servlet-name>
+        <url-pattern>/EmployeePasswordServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Start Page -->
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

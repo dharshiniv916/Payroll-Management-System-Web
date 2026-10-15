@@ -18,7 +18,7 @@ public class DBConnection {
                 con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/payroll_db?useSSL=false&serverTimezone=UTC",
                     "root",
-                    "dharshiniv@916"
+                    "xxxx"
                 );
             }
 
